@@ -38,7 +38,7 @@ function countDown () {
 }
 
 countDown();
-setInterval(countDown, 2000);
+setInterval(countDown, 1000);
 
 // store input numbers
 const num1 = parseInt(prompt('Enter the first number '));
